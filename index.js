@@ -27,7 +27,7 @@ function verifyJWT(req, res, next) {
 
 
 
-   
+
 }
 
 //Connect Mongo 
@@ -116,8 +116,8 @@ run().catch(console.dir)
 
 
 app.get('/', (req, res) => {
-    res.send('I am from Express ')
+    res.send('I am from Express  and render')
 })
 app.listen(port, () => {
-    console.log('Cholsay gari Jatrabari ', port);
+    console.log('Cholsay gari Jatrabari  ', port);
 })
